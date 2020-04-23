@@ -1,2 +1,2 @@
-const name = require('./getNotes.js')
+const notes = require('./getNotes.js')
 console.log(name())
