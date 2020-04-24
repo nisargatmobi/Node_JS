@@ -5,6 +5,8 @@ const getName = function(){
     return "nisarg"
 }
 
+debugger
+
 const addNote = function (title, body) {
     const notes = loadNotes()
     const duplicateNotes = notes.filter(function (note) {
