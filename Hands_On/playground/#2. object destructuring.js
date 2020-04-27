@@ -14,3 +14,11 @@ console.log(price)
 // renaming variable 
 const{label:otherlabel}=product
 console.log(otherlabel)
+
+// using this de structured variables 
+
+const transaction = (type,{label,price})=>{
+    console.log(type,label,price)
+}
+
+transaction('order',product)
